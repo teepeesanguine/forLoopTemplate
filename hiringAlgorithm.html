@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+      <!-- thank you ethicalCS.github.io for the lesson! -->
+      <!-- I've adapted the lesson to work with Javascript for my AP CSP students, but y'all did the hard work. -->
+  <head>
+    <title>Hiring Algorithm</title>
+    <link rel="stylesheet" type="text/css" href="hiringAlgorithm.css">
+
+    <!-- linking fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo|Monofett" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="theContainer">
+      <div id="title"><h1>MOOGLE HIRING CENTER</h1>
+      </div>
+
+      <div id="description">
+        <p>Welcome to MOOGLE, a well-known tech company that receives tens of thousands of job applications from graduating seniors every year.
+        Since the company receives too many job applications for HR to individually assess in a reasonable amount of time, you have been asked to create a program that algorithmically analyzes applications and selects the ones most worth passing onto HR.</p>
+
+        <p>Click below to find out how many students would make it through each qualification individually, and how many students would make it through once all criteria are analyzed.</p>
+      </div>
+
+      <div id="roundOne" class="button"><h3>Click to sort by first qualification</h3></div>
+      <div class="description">We believe an applicant is qualified if their overal GPA is above 80.</div>
+      <div id="resultsOne" class="results">Results appear here.</div>
+
+      <div id="roundTwo" class="button"><h3>Click to sort by second qualification</h3></div>
+      <div class="description">We believe an applicant is qualified if they have no grade below a 65.</div>
+      <div id="resultsTwo" class="results">Results appear here.</div>
+
+      <div id="roundThree" class="button"><h3>Click to sort by third qualification</h3></div>
+      <div class="description">We believe an applicant is qualified if they have at least 4 grades above an 85.</div>
+      <div id="resultsThree" class="results">Results appear here.</div>
+
+      <div id="ultimateRound" class="button"><h3>Click to sort by all qualifications</h3></div>
+      <div class="description">We believe an applicant is only qualified if they meet ALL of the above qualifications.</div>
+      <div id="ultimateResults" class="results">Results appear here.</div>
+
+    </div>
+
+    <script src="hiringAlgorithm.js"></script>
+  </body>
+<html>

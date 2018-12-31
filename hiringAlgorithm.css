@@ -1,0 +1,42 @@
+body{
+  font-family: 'Exo', sans-serif;
+}
+
+div{
+  padding:5px;
+  text-align: center;
+}
+
+#theContainer{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-gap: 5px;
+}
+
+#title{
+  grid-column: span 3;
+  font-family: 'Monofett', cursive;
+}
+
+#description{
+  grid-column: span 3;
+  text-align: left;
+}
+
+.description{
+  background-color: #CC8984;
+}
+
+.button{
+  font-family: 'Consolas', sans-serif;
+  background-color: #AFB292;
+}
+
+.results{
+  background-color: #B29C9A;
+}
+
+.button:hover{
+  background-color: #EBFF50;
+}
